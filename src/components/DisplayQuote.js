@@ -9,7 +9,7 @@ function DisplayQuote( {simpson}) {
     simpson && (
      <div className = 'DisplayQoute'>
      <figure className="QuoteCard">
-        {/* <img src={simpson.image} alt={simpson.character} /> */}
+        {/* {<img src={simpson.image} alt={simpson.character} />} */}
         <figcaption>
         <blockquote>{simpson.quote}</blockquote>
         <cite>{simpson.character}</cite>
